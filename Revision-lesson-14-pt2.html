@@ -1,0 +1,65 @@
+<!DOCKTYPE html>
+<html>
+<head>
+<style>
+.right {
+background-color: lightpink;
+position: fixed;
+top: 0;
+bottom: 0;
+right: 0;
+width: 150px;
+}
+
+.page {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+background-color: rgba(0,0,0,0.3);
+position: fixed;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+}
+
+.modal-flex {
+background-color: white;
+width: 500px;
+height: 150px;
+border-radius: 8px;
+}
+
+.modal-design {
+font-family: Arial;
+font-size: 28px;
+font-weight: bold;
+margin: 20px 20px;
+}
+
+.warning {
+font-family: Arial;
+font-size: 18px;
+margin-left: 20px;
+margin-bottom: 15px;
+}
+
+.close {
+margin-left: 20px;
+font-family: Arial;
+font-size: 16px;
+}
+</style>
+</head>
+<body>
+<div class="right">Right-SideBar</div>
+<div class="page">
+<div class="modal-flex">
+<div class="modal-design">Modal Title</div>
+<div class="warning">This is a modal</div>
+<button class="close">Close</button>
+</div>
+</div>
+</body>
+</html>
